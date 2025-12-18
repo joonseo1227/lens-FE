@@ -19,7 +19,7 @@ export default function Header() {
                 <div className="flex items-center gap-2">
                     <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
                         <div
-                            className="w-8 h-8 bg-gradient-to-tr from-blue-500 to-indigo-600 rounded-lg flex items-center justify-center text-white font-bold text-lg shadow-lg shadow-blue-900/40">L
+                            className="w-8 h-8 bg-linear-to-tr from-blue-500 to-indigo-600 rounded-lg flex items-center justify-center text-white font-bold text-lg shadow-lg shadow-blue-900/40">L
                         </div>
                         <h1 className="font-bold text-xl tracking-tight text-white">LensCorrect</h1>
                     </Link>
@@ -30,7 +30,7 @@ export default function Header() {
                     <Link href="/panorama" className={getLinkClass("/panorama")}>Panorama Tool</Link>
                     <Link href="/how-it-works" className={getLinkClass("/how-it-works")}>How it works</Link>
                     <Link href="/privacy" className={getLinkClass("/privacy")}>Privacy</Link>
-                    <a href="https://github.com/joonseo1227"
+                    <a href="https://github.com/joonseo1227/lens-FE"
                        className="text-zinc-100 hover:text-blue-400 transition-colors" target="_blank"
                        rel="noopener noreferrer">GitHub</a>
                 </nav>
